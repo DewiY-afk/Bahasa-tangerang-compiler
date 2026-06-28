@@ -1,0 +1,36 @@
+# =======================================================
+# CONTOH PROGRAM SINTAKS BAHASA TANGERANG COMPILED (.BTG)
+# =======================================================
+
+tulis("--- Mimitian Program Tés Kompiler ---")
+
+# 1. Deklarasi Variabel & Operasi Aritmatika
+angka_kahiji = 20
+angka_kadua = 5
+total_hitungan = angka_kahiji + angka_kadua * 2
+
+tulis("Hasil tina itungan aritmatika nyaéta:", total_hitungan)
+
+
+# 2. Percabangan Ngagunakeun 'lamun' jeung 'liyan'
+# Sarta ngagunakeun tipe data Boolean (bener / salah)
+status_lulus = salah
+nilai_mahasiswa = 85
+
+lamun nilai_mahasiswa >= 75 {
+    tulis("Wilujeng! Nilai anjeun cekap jang lulus.")
+    status_lulus = bener
+} liyan {
+    tulis("Punten, nilai anjeun masih kirang.")
+    status_lulus = salah
+}
+
+
+# 3. Perulangan Ngagunakeun 'salila' (While Loop)
+konter = 1
+salila konter <= 3 {
+    tulis("Ieu perulangan salila léngkah ka-", konter)
+    konter = konter + 1
+}
+
+tulis("--- Program Parantos Réngsé, Hatur Nuhun ---")
